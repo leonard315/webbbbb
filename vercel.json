@@ -1,7 +1,8 @@
 {
-  "buildCommand": "cd react-frontend && npm install && npm run build",
+  "version": 2,
+  "buildCommand": "cd react-frontend && npm ci && npm run build",
   "outputDirectory": "react-frontend/dist",
-  "installCommand": "cd react-frontend && npm install",
+  "installCommand": "echo 'Skipping root install'",
   "framework": null,
   "rewrites": [
     {
